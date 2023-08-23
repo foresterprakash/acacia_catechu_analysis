@@ -1,0 +1,704 @@
+---
+title: "Technical Report on Wood Component Ratio of Acacia Catechu"
+author: "Environmental Forum For Research and Development Nepal Pvt. Ltd.(EFORD)"
+date: '2023'
+output:
+  pdf_document: 
+    number_sections: yes
+    fig_caption: yes
+  word_document: 
+    toc: no
+editor_options:
+  markdown:
+    wrap: 72
+bibliography: citations.bib
+csl: elsevier-harvard.csl
+geometry: "left=3cm,right=2.5cm,top=3cm,bottom=2cm"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{=tex}
+\newpage
+\tableofcontents
+\listoftables
+\listoffigures
+\newpage
+```
+# Background
+
+## Introduction
+
+*Acacia catechu* is a primary tree species from *fabaceae*
+family[@acaciaca] . It is commonly known as *khair* is a multipurpose
+medium sized tree species primarily found forest with tropical dry and
+tropical moist condition [@champion_revised_1968]. Nepal is one of the
+native habitat of the species along with India, Pakistan and Thailand.
+It is also found in Indonesia, Kenya and Mozambique as an exotic
+species. It is associated with *Bombax ceiba, Butea monosperma*, and
+*Dalbergia sisoo*[@bhattarai2020]. In Nepal, it is widely distributed in
+Terai, the plain area, and elevated upto 900m above the sea level.
+Primarily it is regarded as riverine forest of Terai, dun areas and
+extended to some gravelly river beds and also found in bed pd Seti River
+near Pokhara. It grows naturally as well as it can be grown artificially
+by seed, later it grows as a strong light demanding tree with
+characteristic of highly resistant to the drought [@jackson1994].
+
+It is not only valuable species from the medicinal or commercial point
+of view but also a valuable timber species known for its strong and
+durable wood, which has been widely used in construction, furniture
+making, and traditional medicine. The tree is considered important in
+both ecological and socio-economical terms [@bhattarai2020]. Most
+important and commercial product from *A.catechu* are katha and cutch,
+and there are several factories producing katha in Nepal, the end
+product of which is exported to India [@bhattarai2020]. The product like
+food, fodder, fuel timber, tannin or dyestuff, gum or resin, poison,
+medicine as well the barrier or support, with the help of its brushwood
+fence, service is provided by the species [@acaciac].
+
+Besides this *A.catechu* has a significant medicinal uses. *A. catechu*
+is being used traditionally to cure some of the diseases, like
+gastrointestinal and stomach related problems, leprosy and few skin
+diseases [@kumar2019; @kunwar2010; @thangavelu2020]. *A. catechu* is
+rich in phytochemicals with diverse pharmaceutical and biological
+activities in its different components of woods i.e., sapwood and
+heartwood [@adhikari2021].
+
+```{r echo=FALSE, out.width = "60%", fig.align = "center", fig.cap="Anatomy of tree trunk"}
+knitr::include_graphics("tree_trunk.png", )
+```
+
+The xylem of the most species has two physiologically different zone
+called the sapwood and heartwood. The outer layer i.e., sapwood contains
+physiologically active living cells and nutrient materials whereas the
+heartwood as inner dark layer is physiologically inactive zone with
+strong foundation to the wood [@ayobi2011]. The heartwood of *A.catechu*
+contains tannins, terpenoides, triterpenoids, carbohydrates etc.
+[@adhikari2021] whereas the sapwood of khair posses the great importance
+in the growth of the tree. Commercially, heartwood is more important
+because of its richness in chemicals and its medicinal value.
+
+This study aims to emphasizes the quantification of the heartwood volume
+and sapwood volume in respect to the diameter of the logs. The study
+provides the heartwood and sapwood ratio to the log volume and its
+correlation with the diameter of the log. The result in this study
+provides the comprehensive idea to quantify the amount of heartwood and
+sapwood without chopping it.
+
+## Objectives
+
+The objective of this study is to assess the ratio of sapwood and
+heartwood in *A. catechu* trees across the Bagmati Province. The study
+excels the understanding of the proportion of sapwood and heartwood in
+different diameter class of the tree logs.
+
+The specific objectives of this study are as follows:
+
+1.  To quantify and analyze the ratio of sapwood and heartwood in
+    *Acacia catechu* trees in the Bagmati Province of Nepal.
+
+2.  To examine the variations in sapwood and heartwood proportions
+    across different age classes of *Acacia catechu*.
+
+3.  To compare the ratio of the wood component in Terai and Mid-hill Region
+
+## Significance of the Study
+
+The findings of this study hold several implications for the management
+and utilization of Acacia catechu in the Bagmati Province. To begin with
+the knowledge gained regarding the ratio of sapwood and heartwood can
+contribute to improved tree age determination for the harvesting of the
+species which further improves the economic benefit to all stakeholders.
+
+In addition to that, understanding the variations in sapwood and
+heartwood proportions across different age classes of *Acacia catechu*
+can assist in sustainable harvesting strategies. By targeting trees with
+optimal heartwood development, it is possible to maximize timber quality
+and minimize waste in the processing industry.
+
+Conclusively, the findings of this study can contribute to the
+scientific knowledge of *Acacia catechu* in the context of the Bagmati
+Province. It fills a research gap and provides a basis for further
+investigations and studies related to the species' ecology, physiology,
+wood properties and business.
+
+\newpage
+
+# Methodology
+
+## Secondary source of Knowledge
+
+Several researches on *Acacia catechu* as a riverine forest species were
+taken into consideration during the before and during the field work
+which provided comprehensive guide throughout the process. Several
+national and international publication were extensively reviewed
+throughout the study period.Forest research and Training center,
+Ministry of forest and environment, Bagmati province and other
+organizations were the major source of literature and suggestion. Those
+sources were highly acclaimed by the research team.
+
+## Access to the log samples
+
+Bagmati province is one of the most prime province in Nepal in terms of
+the variablity in forest types. There are sufficient amount of river
+systems which is potential habitat for *acacia catechu* forests. Several
+districts like Dhading, Chitwan,Nuwakot, Makawanpur, Sindhuli,
+Sindhupalchok, Kabhrepalachok, etc. are connected with river systems
+with subtropical climatic conditions. Forest Research Training Center as
+a client and the organization as a consulting organization jointly made
+an effort to coordinate with Division Forest Offices to find an desired
+sample logs for the study. With continued discussion five divisions were
+chosen as a study site i.e., Chitwan, Dhading, Kabhrepalachok, Sindhuli
+and Marin Division forest offices. Maximum possible number of sample
+logs were taken in the designed division forest offices.
+
+## Data Collection
+
+With all available logs following parameters were taken.
+
+-   Under bark girth of the log in both thick and thin end of the log in
+    centimeters.
+
+-   Under bark girth of the log in the mid section of the log in
+    centimeters.
+
+-   Girth are converted into diameter using the formula dividing them by
+    $\pi$ .
+
+-   Length of the log in meters.
+
+-   Thickness of the sapwood in cm. ( This measurement is taken in two
+    direction in each end of the log. The final thickness is the average
+    of those four measurements.
+
+-   Diameter of the heartwood in both ends of the logs in centimeters.
+
+## Data Analysis
+
+Microsoft Statistical package R is used to analyse the data.
+
+### Volume of the Log
+
+The volume of the log was calculated using the
+$smalian's\space formula$. Which is the average of the cross sectional
+area in each end of the log multiplied by the length of the log. Then
+mathematical representation of $smalian's\space formula$ is as follows:
+
+$$
+V = \frac{{S1 + S2}}{2} * L\tag{i}
+$$
+
+Where $$
+S_1 = \frac{{\pi\space * \space d_1^2}} {4}\tag{ii}
+$$
+
+$S_1$ as a Basal area in one end of the log. Similarly the $S_2$ is the
+basal area of another end calculated using same formula with the $d_2$
+diameter of the second end.
+
+and $L$ is the length of the log from thick end to the thick end.
+
+This formula gives the volume of the whole log. which contains both sap
+wood and heartwood.
+
+### Volume of the Heartwood
+
+As mentioned before, the diameter of the heartwood was measured in both
+of the ends of the logs. Clear indication of heartwood was judged by the
+data collector and other forestry officials in the field.
+
+Volume of the heartwood was also calculated using the equation $(i)$.
+$Smalian's \space Formula$ is used to calculate the volume because the
+diameter of the heartwood at the middle part of the log is impossible.
+Hence both log volume and heartwood volume is calculated using
+$smalian's \space Formula$.
+
+### Volume of the Sapwood
+
+The volume of the sapwood is calculated using: $$
+V_{Sapwood} = V_{Log} - V_{Heartwood}\tag{iii}
+$$
+
+### Wood Component Ratios
+
+Three ratios is calculated and displayed in the results. **First** is
+the ratio between the heartwood and total log volume without bark,
+**Second** the ration between the sapwood volume and the volume of log
+and **Third one** is the ration of sapwood volume to the heartwood
+volume.
+
+1.  Heartwood ratio to the log volume $$
+    Ratio_{(HW/Log)} = \frac{Volume_{(Heartwood)}}{Volume_{(Log)}}\tag{iv}
+    $$
+
+2.  Sapwood ratio to the log volume $$
+    Ratio_{(SW/Log)} = \frac{Volume_{(Sapwood)}}{Volume_{(Log)}}\tag{v}
+    $$
+
+3.  Sapwood ratio to the heartwood volume $$
+    Ratio_{(SW/HW)} = \frac{Volume_{(Sapwood)}}{Volume_{(Heartwood)}}\tag{vi}
+    $$
+
+### Normality test of the data
+
+To test the normality of the ratio, the most common method called
+Shapiro-Wilk test of normality was used.The Shapiro-Wilk test is a
+statistical test used to assess the normality of a dataset. It is widely
+used to determine whether a sample of data comes from a population that
+follows a normal distribution. The test is based on the idea that if the
+data is normally distributed, the expected order statistics (ranked
+values) will follow a specific pattern.The test calculates the test
+statistic (W) based on the correlation between the observed data and the
+expected normal order statistics. The test statistic ranges between 0
+and 1, where a value closer to 1 indicates better conformity to a normal
+distribution.
+
+The Shapiro-Wilk test also provides a p-value, which represents the
+probability of obtaining the observed test statistic (or a more extreme
+value) assuming that the data is normally distributed. A small p-value
+suggests that the data significantly deviates from normality.It's
+important to note that the Shapiro-Wilk test is more accurate and
+powerful for small to moderate sample sizes compared to other normality
+tests like the Anderson-Darling or Kolmogorov-Smirnov tests.
+
+### Variance of the ratio of sapwood to heartwood
+
+To test the variance of the heartwood sapwood ratio in different
+diameter classes,Levene's test was used which is a common test used to
+assess the equality of variances across multiple groups.Levene's test is
+a statistical test used to assess the equality of variances between
+multiple groups or samples. It is particularly useful when the
+assumption of equal variances is violated. The test calculates a test
+statistic based on the absolute deviations between each observation and
+the group mean, and it compares this statistic to a critical value from
+the F-distribution. If the test statistic is significantly different
+from the critical value, it suggests that there is a significant
+difference in variances among the groups.
+
+### Choosing the statistical test.
+
+Based on the normality, variance among the groups and number samples
+among the groups will determine the statistical test. To choose the
+suitable statistical tests for testing the difference in mean and
+median, more information about specific data and the nature of the
+variables is needed. *Sample Size:* Consider the size of your sample.
+Larger sample sizes tend to provide more reliable estimates of
+population parameters and increase the power of statistical tests.
+
+*Distribution:* Assess the distributional characteristics of your data.
+Determine whether the data follows a normal distribution or if it
+exhibits skewness or heavy-tailed behavior. This can guide the selection
+of appropriate statistical tests.
+
+*Suitable Statistical Tests:*
+
+Difference in Mean: If your data follows a normal distribution and you
+want to compare the means of two or more groups, you can use parametric
+tests such as the independent t-test (for two groups) or analysis of
+variance (ANOVA) followed by post-hoc tests (for more than two groups).
+If the data does not follow a normal distribution or the assumptions for
+parametric tests are violated, you can consider non-parametric
+alternatives like the Mann-Whitney U test (for two groups) or the
+Kruskal-Wallis test followed by post-hoc tests (for more than two
+groups).
+
+Difference in Median: If your data does not follow a normal distribution
+and you want to compare the medians of two or more groups,
+non-parametric tests are typically used. The Wilcoxon rank-sum test
+(also known as the Mann-Whitney U test) can be employed for comparing
+two groups, while the Kruskal-Wallis test followed by post-hoc tests is
+suitable for comparing multiple groups. These tests assess whether there
+are statistically significant differences in the medians across the
+groups.
+
+\newpage
+
+# Results
+
+## Preview of the data From field
+
+Primarily dimensions like girth of log, sapwood thickness and heartwood
+diameter was collected from the field. After transferring to the digital
+format in excel sheet the data looked like as the table below:
+
+```{r echo=FALSE, message=FALSE}
+# Load the library and data 
+library(RcmdrMisc)
+#library(kableExtra)
+dat <- readXL("E:/Acacia_data/V2/Field final Data.xlsx",sheet = 1)
+```
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+sum_tab <- dat %>%
+  group_by(remarks) %>%
+  slice_sample(n=7)
+knitr::kable(sum_tab, caption = "A Summary of field data", align = 'l')
+```
+
+*Note : All the measurements were taken in centimeters (cm)*
+
+```{r, echo = FALSE,, results= TRUE}
+# Data analysis process here.
+# For log diameter - convert girth to diameter (division by pi)
+dat$dia_log1 <- dat$girth1/pi
+dat$dia_logm <- dat$girth_m/pi
+dat$dia_log2 <- dat$girth3/pi
+
+# define the diameter as 0-30, 30-50 and 50 above
+dat$dia_class <- ifelse(dat$dia_logm <30,"0-30",
+                        ifelse(dat$dia_logm <50, "30-50","50 above"))
+# For basal areas of the log
+dat$ba_log1 <- (pi * dat$dia_log1^2)/4
+dat$ba_log_2 <- (pi * dat$dia_log2^2)/4
+
+# Now log Volume using Equation 1 
+dat$log_volume_cm3 <- (dat$ba_log1 + dat$ba_log_2)/2 * (dat$length)
+
+# Now for volume of heartwood
+## Calculate heartwood basal areas
+dat$hw_dia <- (dat$hw_dia1 + dat$hw_dia2)/2
+dat$ba_HW1 <- (pi * dat$hw_dia1^2)/4
+dat$ba_HW2 <- (pi * dat$hw_dia2^2)/4
+
+## Volume of heartwood by equation 1
+
+dat$volume_hw <- (dat$ba_HW1 + dat$ba_HW2)/2 *dat$length
+
+## Volume of the sapwood by equation iii
+
+dat$volume_sw <- dat$log_volume_cm3 -dat$volume_hw
+
+## Now wood component Ratio
+
+dat$ratio_hw_log <- dat$volume_hw / dat$log_volume_cm3
+dat$ratio_sw_log <- dat$volume_sw / dat$log_volume_cm3
+
+##
+dat$ratio_sw_hw <- dat$volume_sw / dat$volume_hw
+```
+
+\newpage
+
+## Summary of the preliminary results
+
+```{r, echo=FALSE, results=TRUE}
+
+dat_sum <- data.frame(
+  Var_names <- c("Min", "Mean", "Median", "Max", "STDEV"),
+  Log_diameter = c(min(dat$dia_logm),
+          mean(dat$dia_logm),
+          median(dat$dia_logm),
+          max(dat$dia_logm),
+          sd(dat$dia_logm)),
+  Heartwood_diameter = c(min(dat$hw_dia),
+          mean(dat$hw_dia),
+          median(dat$hw_dia),
+          max(dat$hw_dia),
+          sd(dat$hw_dia))
+)
+colnames(dat_sum) <- c(" ","Log Diameter(cm)", "Heartwood diameter (cm)")
+```
+
+The diameter of the log and diameter of the heartwood ranges from
+`r round(min(dat$dia_logm),2)` cm and `r round(min(dat$hw_dia),2)` cm
+and to `r round(max(dat$dia_logm),2)` cm and
+`r round(min(dat$hw_dia),2)` cm respectively. As described in the table
+below mean diameters of the log and heartwood are
+`r round(mean(dat$dia_logm),2)` cm and `r round(mean(dat$hw_dia),2)` cm
+respectively. This means the overall log diameter is lesser in size.
+This might be the because of the availability of the sample. The fig
+below further represents the overall distribution of the diameter data.
+
+```{r, echo=FALSE, results=TRUE}
+knitr:: kable(dat_sum, caption = "Summary of the log dimensions", digits = 2)
+```
+
+```{r fig.cap= "Distribution of diameter", fig.align='center'}
+boxplot(dat$dia_logm,dat$hw_dia, ylab = "Diameter in cm", names = c("Log", "Heartwood"), col = "yellow")
+      
+```
+
+The figure suggests the overall distribution of the diameters are
+between 20 cm to 30 cm. Very less numbers of the log sample are taken
+from the diameter class above 50 cm.
+
+## Diameter class division
+
+With the information above total number of logs are divided into three
+diameter classes i.e., 0 - 30cm in diameter, 30-50 cm in diameter, and
+logs with diameter above 50 cm. Lesser representation of sample logs
+with higher diameter class can be regarded as the limitation of the
+sampling techniques.
+
+```{r, echo= FALSE, results= TRUE, message=FALSE}
+library(dplyr)
+d <- dat %>%
+  group_by(dia_class) %>%
+  summarise(n = n(), mean = round(mean(dia_logm),2), mean_R = round(mean(ratio_hw_log),2), mean_S = round(mean(ratio_sw_log),2))
+colnames(d) <- c("Diameter(cm)", "Number of logs", "Mean diameter", "Mean ratio (HW to Log volume)", "Mean ratio (SW to Log Volume)")
+knitr::kable(d, caption = "Number of logs in different diameter classes")
+```
+
+```{r, fig.cap= "Relation of the diameter and heartwood ratio", warning= FALSE, message=FALSE}
+library(ggplot2)
+ggplot(data = dat, aes(x = dia_logm , y = ratio_hw_log)) + geom_point() + stat_smooth( se = F, method = "lm") + labs(x = "Log Diameter (cm)", y = "Ratio of Heartwood to the Log volume") + facet_wrap(~remarks, scale = "free")
+```
+
+The table simply displays the increase in ratio of heartwood volume to
+the log volume. The fig possess the agreement with the data but there is
+unclear pattern of data distribution. This can explain the relation of
+diameter and the ratio of heartwood in a complex way So that it is
+difficult to predict the ratio of heartwood volume to the total log
+volume by the diameter of log. The later figure in this part displays
+the inverse relation between diameter to the ratio of sapwood volume
+which is as predicted after looking into its relation to the heartwood
+volume. \newpage
+
+```{r, fig.cap= "Relation of the diameter and sapwood ratio", warning= FALSE, message=FALSE}
+library(ggplot2)
+ggplot(data = dat, aes(x = dia_logm , y = ratio_sw_log)) + geom_point() + stat_smooth( se = F, method = "lm") + labs(x = "Log Diameter (cm)", y = "Ratio of Heartwood to the Log volume") + facet_wrap(~remarks, scale = "free")
+
+```
+
+## Ratio of sapwood volume to heartwood
+
+There were visible increase of heartwood volume ratio with the increase
+in diameter of logs as well as the decrease in sapwood volume ratio with
+the rising log diameter.
+
+```{r}
+library(dplyr)
+sar <- dat %>%
+  group_by(dia_class) %>%
+  summarise(N = n(), mean_dia = round(mean(dia_logm),2), mean_shr = round(mean(ratio_sw_hw),2), med = round(median(ratio_sw_hw),2), sd = round(sd(ratio_sw_hw),2))
+colnames(sar) <- c("Diameter class", "Number of logs", "Mean diameter", "Mean ratio (sapwood to heartwood)", "Median ratio", "STDEV")
+knitr::kable(sar, caption = "Ratio of sapwood to heartwood by the diameter class")
+```
+
+The above mentioned results is also justified by the table here. The
+ratio of the sapwood to the heartwood ratio is decreasing with the
+increasing diameter. Different ratios can be recommended for different
+diameter if the ratio differs significantly.
+
+\newpage
+
+## Normality in ratio of sapwood to heartwood
+
+The Shapiro-Wilk test assessed whether a ratio follows a normal
+distribution by calculating a test statistic (W) and determining the
+associated p-value. By comparing the p-value to a significance level,
+you can determine whether the data can be considered normally
+distributed or not.
+
+```{r}
+library(RcmdrMisc)
+n_test <- normalityTest(dat$ratio_sw_hw)
+
+n <- data.frame(Test_statistic= round(n_test$statistic,3), P.Value = n_test$p.value, Method = n_test$method)
+colnames(n) <- c("Test_statistic", "P.Value", "Method")
+knitr::kable(n, caption = "Result of normality test", align = 'c')
+```
+
+The Shapiro-Wilk normality test on a ratio, revealing a test statistic
+(W) of 0.807 and a p-value of 0. In this case, the calculated test
+statistic of 0.807 indicates that the data may deviate slightly from
+perfect normality. However, the extremely small p-value of 0 suggests
+strong evidence against the null hypothesis of normality. This implies
+that the data is highly unlikely to have been generated from a normal
+distribution. Therefore, based on the Shapiro-Wilk test results, we can
+conclude that the data exhibits departures from normality.
+
+## Variance in ratio of sapwood and heartwood.
+
+Levene's test is robust to departures from normality and can be used
+with unequal sample sizes.
+
+```{r, echo = FALSE, message= FALSE, results= TRUE}
+#install.packages("lawstat")
+library(lawstat)
+l <- levene.test(dat$ratio_sw_hw, dat$dia_class, 
+            location = "median", correction.method = "zero.correction")
+sl <- data.frame(Stat = round(l$statistic,2),P.Value = l$p.value, Method = l$method)
+
+knitr:: kable(sl, caption = "Result of variance test", digits =  3, align = 'c')
+
+```
+
+The statistic value (3.55) represents the test statistic calculated by
+the Levene's test. This test statistic is used to assess the difference
+in variances between the different diameter classes. In this case, the
+specific value of 3.55 is the computed test statistic of the sapwood
+heartwood ratio.
+
+The p-value (0.03) represents the probability of observing a test
+statistic as extreme as the one calculated (or more extreme) under the
+null hypothesis. In Levene's test, the null hypothesis is that the
+variances of the heartwood sapwood ratios are equal across all the
+diameter classes. A p-value of 0.03 indicates that if the null
+hypothesis were true (i.e., if there were no difference in variances),
+you would expect to observe a test statistic as extreme as 3.55 (or more
+extreme) in only 3% of cases.
+
+Since the p-value (0.03) is below the typical significance level of
+0.05, the null hypothesis and conclude that there is evidence of a
+significant difference in variances of the heartwood sapwood ratios
+across the different diameter classes.
+
+In summary, the results suggest that there is a significant difference
+in the variances of the heartwood sapwood ratios between the diameter
+classes based on the Levene's test.
+
+## Choosing the statistical test
+
+Our data did not possess the normality and does not have the equal
+variance so that, non parametric test called Krushkal-Walis test is used
+in the study.
+
+The Kruskal-Wallis test is a non-parametric statistical test used to
+determine if there are significant differences between the medians of
+two or more independent groups. It is an extension of the Mann-Whitney U
+test, which is used for comparing two groups. The Kruskal-Wallis test
+ranks the observations from all groups, considering their joint
+distribution, and calculates a test statistic based on the ranks. The
+test statistic follows a chi-square distribution with degrees of freedom
+equal to the number of groups minus 1. By comparing the test statistic
+to a critical value from the chi-square distribution, the Kruskal-Wallis
+test assesses whether there are statistically significant differences in
+medians among the groups. It is particularly useful when the assumptions
+of normality and equal variances are violated, making it a robust
+alternative for comparing groups based on medians.
+
+```{r fig.cap="Distribution of ratio by diameter class", warning= FALSE, message=FALSE, results=TRUE}
+ggplot(data = dat, aes(x = dat$ratio_sw_hw)) + 
+    geom_histogram(alpha = 0.5, position = "dodge", col = "black") + 
+    facet_wrap(~dia_class, ncol = 3) + 
+    labs(x = "Ratio of sapwood to Heartwood", y = "Frequency")
+```
+
+As we discussed before the data is faraway from normality. The figure
+shows the ratio of sapwood to the heartwood could be higher than 1 in
+smaller logs i.e., volume of sapwood can be higher than that of
+heartwood specially in smaller logs. The histogram demonstrates that the
+data is not normally distributed and is skewed, with the means and
+standard deviations of the different groups differing.
+
+## Kruskal-Wallis Test Results
+
+The Kruskal-Wallis test was conducted on the data, resulting in a test
+statistic of 36.26329 and a p-value of 0. The test was performed using
+the Kruskal-Wallis rank sum test, which is a non-parametric test used to
+compare the medians of multiple independent groups. The Kruskal-Wallis
+test statistic, which follows a chi-squared distribution, quantifies the
+differences in ranks among the groups. In this case, the test statistic
+value of 36.26329 indicates a substantial difference in ranks among the
+groups. The p-value of 0 suggests that the observed test statistic is
+statistically significant at conventional significance levels.
+Therefore, there is strong evidence to reject the null hypothesis that
+the medians of the groups are equal. In summary, based on the results of
+the Kruskal-Wallis test (Kruskal-Wallis chi-squared = 36.26329, p-value
+= 0), we can conclude that there are significant differences in the
+medians among the groups being compared.
+
+```{r, warning= FALSE, message= FALSE, results= TRUE}
+k <- kruskal.test(ratio_sw_hw ~ dia_class, data = dat)
+r_k <- data.frame(Statistic = k$statistic, Parameter = k$parameter, P.Value = round(k$p.value,8), Method = k$method)
+knitr::kable(r_k, caption = "Result from Kruskal-Wallis test", align = 'c')
+```
+
+```{r fig.cap="Box Plot of Ratio of sapwood to heartwood by diameter class", warning=FALSE, result = TRUE, message= FALSE}
+ggplot(data = dat, aes(x=dia_class, y=dat$ratio_sw_hw, group=dia_class)) + 
+  geom_boxplot(col = 'black') +
+  xlab("Diameter Class") +
+  ylab("Ratio")
+  
+```
+
+The dunn test as a post hoc analysis of kruskal-Walis test was performed
+to identify the groups having difference in median.
+
+```{r warning=FALSE, echo=FALSE, message= FALSE}
+library(dunn.test)
+dunn_result <- dunn.test(dat$ratio_sw_hw, dat$dia_class, method = "bonferroni")
+dunn_r <- data.frame(Dia_class = dunn_result$comparisons,Chi = dunn_result$chi2, z = dunn_result$Z, P = dunn_result$P, P.Adj = dunn_result$P.adjusted)
+colnames(dunn_r)<- c("Diameter Class","Chi-squared Value", "Z- Value", "P.Value", "P.Adj")
+knitr::kable(dunn_r, caption = "Result of dunn test (Post-HOC of Kruskal-Walis test)", digits =4 )
+```
+
+The dunn test preformed the post HOC analysis of non parametric test
+i.e., kruskal walis test. The result illustrated the clear difference in
+ratio of sapwood to the heartwood within different diameter class. The
+table suggested that, there is no significant difference higher diameter
+classes i.e.,30-50 and 50 above which might be because of small number
+of samples in the highest class.
+
+## Heartwood and Sapwood ratio in Terai and higher altitudes
+
+The data is collected from five districts. Most of the sample log $n = 225$ is from Terai region i.e., Sindhuli marin, chitwan and Rapti divisional forest area from sindhuli, chitwan and makawanpur district respectively whereas the sample from middle hill region i.e., from kabhrepalanchok and dhading district is significantly less $n = 54$. Whereas it depends upon the habitat of *Acacia catechu* inside the district. The table donot reflect any significant difference in ratio between the log samples from Terai and Mid-hill Region. In addition to that the table shows high number of sample (see the difference in standard deviation of both groups and comparison with the number of samples in each) can decrease the deviation in the data which makes easier for decision makers.
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+dat_region <- dat %>%
+  mutate(region = case_when(
+    remarks %in% c("Rapti", "Chitwan", "sindhuli_marin") ~ "Terai",
+    remarks %in% c("Kabhre", "Dhading") ~ "Mid-hill",
+    TRUE ~ "Unknown" # Add a default value for any other remark not matched above
+  ))
+
+reg_tab <- dat_region %>%
+  group_by(region) %>%
+  summarise(Number_samples = n(),
+            min_ratio = min(ratio_sw_hw),
+            mean_ratio = mean(ratio_sw_hw),
+            median_ratio = median(ratio_sw_hw),
+            max_ratio = max(ratio_sw_hw),
+            stdev = sd(ratio_sw_hw))
+colnames(reg_tab) <- c("Region", "N", "Minimum", "Average", "Median", "Maximum", "SD")
+
+knitr::kable(reg_tab, caption = "Distribution of the samples by the region", digits = 2)
+```
+
+
+
+
+
+
+
+\newpage
+
+# Conclusion
+
+*Acacia catechu* named as *khair* in Nepal is a valuable economic
+species which has great importance in national as well as local economy.
+This study helps the forest manager, traders as well as local
+users/plantation farmers to quantify the resource and valuate it in
+terms of financial resources.
+
+The study highlighted that the wood component ratio i.e., heartwood
+volume to log volume, sapwood volume to log volume and ratio of sapwood
+and heartwood volume are significantly different in different diameter
+classes. The mean ratios for three diameter class of logs i.e, 0 - 30,
+30 - 50, 50 above are 0.43, 0.28 and 0.11 respectively. Whereas median
+ratio of those classes are 0.26, 0.14, 0.08 respectively. The diameter
+and samples were not normally distributed and possess some outlier in
+the distribution. In this case median data is highly recommended because
+mean in highly sensitive to the distribution and outlier of the data. The ratio between the wood components do not possess the significant difference in Terai and Mid-hill regions.
+
+The study concludes and recommend the median ratios as the findings to
+use as a management tools. However, the study should be broaden with greater number of sample logs so that it will be easier for decision makers to imply it as management as well as financial tool.
+
+\newpage
+
+# Annex
+
+## Data used for Analysis
+
+```{r}
+dat_o <- readXL("E:/Acacia_data/V2/Field final Data.xlsx",sheet = 1)
+knitr::kable(dat_o, caption = "Final Field Data", align = 'c')
+```
+
+\newpage
+
+# References
