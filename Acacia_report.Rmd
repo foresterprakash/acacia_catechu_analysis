@@ -327,8 +327,10 @@ format in excel sheet the data looked like as the table below:
 # Load the library and data 
 library(RcmdrMisc)
 #library(kableExtra)
-dat <- readXL("E:/Acacia_data/V2/Field final Data.xlsx",sheet = 1)
+dat <- readXL("E:/Acacia_data/Acacia_project/Field final Data.xlsx",sheet = 1)
 ```
+
+
 
 ```{r echo=FALSE, message=FALSE}
 library(tidyverse)
@@ -695,10 +697,11 @@ use as a management tools. However, the study should be broaden with greater num
 ## Data used for Analysis
 
 ```{r}
-dat_o <- readXL("E:/Acacia_data/V2/Field final Data.xlsx",sheet = 1)
+dat_o <- readXL("E:/Acacia_data/Acacia_project/Field final Data.xlsx",sheet = 1)
 knitr::kable(dat_o, caption = "Final Field Data", align = 'c')
 ```
 
 \newpage
 
 # References
+
